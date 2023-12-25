@@ -1,4 +1,4 @@
 opencv-python
 Pillow
-pyffmpeg
+pyffmpeg==2.4.2.18.1
 python-telegram-bot
