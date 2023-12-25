@@ -6,7 +6,7 @@ RUN apt-get install -y wget python3-pip curl bash neofetch ffmpeg software-prope
 COPY requirements.txt .
 
 RUN pip3 install wheel
-RUN pip3 install --no-cache-dir -U -r requirements.txt
+RUN pip3 install -r requirements.txt
 WORKDIR /app
 COPY . .
 CMD python3 -m kazuma.py
