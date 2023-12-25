@@ -7,8 +7,7 @@ import logging
 import hashlib
 import datetime
 from PIL import Image
-#from pyffmpeg import FFmpeg, FFprobe
-import pyffmpeg
+from pyffmpeg import FFmpeg, FFprobe
 from telegram.ext import Updater, CommandHandler
 from telegram import Bot, TelegramError, ParseMode, InlineKeyboardMarkup, InlineKeyboardButton
 
