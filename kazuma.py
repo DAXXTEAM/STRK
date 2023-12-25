@@ -8,6 +8,7 @@ import hashlib
 import datetime
 from PIL import Image
 #from pyffmpeg import FFmpeg, FFprobe
+from pyffmpeg
 from telegram.ext import Updater, CommandHandler
 from telegram import Bot, TelegramError, ParseMode, InlineKeyboardMarkup, InlineKeyboardButton
 
