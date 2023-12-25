@@ -9,7 +9,7 @@ import datetime
 from PIL import Image
 from pyffmpeg import FFmpeg, FFprobe
 from telegram.ext import Updater, CommandHandler
-from telegram import Bot, TelegramError, ParseMode, InlineKeyboardMarkup, InlineKeyboardButton
+from telegram import Bot, ParseMode, InlineKeyboardMarkup, InlineKeyboardButton
 
 import strings as s
 import database as sql
