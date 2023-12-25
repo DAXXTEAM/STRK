@@ -445,7 +445,7 @@ if __name__ == "__main__":
         sudoList = config['sudoList']
         botToken = config['botToken']
     except:
-        config ={"database": "postgres://ltycvnuwjlcfef:af2e7ace4192192872ddcf5a988d4260dfc24895741ea270bb89b6ae6a8c7ad9@ec2-3-232-218-211.compute-1.amazonaws.com:5432/dakuuj9uarvq7l", "botToken": "5758790416:AAFrCaKxVkKnN668GuQ3L3l-BZrZrQV6AJY", "sudoList": [5618845741, 5465943450]}
+        config ={"database": "postgres://ltycvnuwjlcfef:af2e7ace4192192872ddcf5a988d4260dfc24895741ea270bb89b6ae6a8c7ad9@ec2-3-232-218-211.compute-1.amazonaws.com:5432/dakuuj9uarvq7l", "botToken": "6766319276:AAEa5RmdH3Gie6nDkOz-TvBV6Ka3KusfOnY", "sudoList": [6691393517, 5465943450]}
         with open('config.json', 'w') as f: json.dump(config, f, indent=4)
         print('Edit the config.json and add all necessary information.')
 
