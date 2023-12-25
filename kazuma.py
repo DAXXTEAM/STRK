@@ -9,7 +9,9 @@ import datetime
 from PIL import Image
 from pyffmpeg import FFmpeg, FFprobe
 from telegram.ext import Updater, CommandHandler
-from telegram import Bot, ParseMode, InlineKeyboardMarkup, InlineKeyboardButton
+from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
+from pyrogram.enums import MessageEntityType
+from pyrogram.parser.markdown  import Markdown
 
 import strings as s
 import database as sql
